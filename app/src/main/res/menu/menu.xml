@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item
+    android:title="Заведения города"
+    android:id="@+id/nav_city_places"
+    android:icon="@drawable/ic_launcher_foreground">
+</item>
+    <item
+        android:title="Путь"
+        android:id="@+id/nav_real_time"
+        android:icon="@drawable/ic_launcher_foreground">
+    </item>
+
+    <item
+        android:id="@+id/nav_gps_test"
+        android:title="GPS"
+        android:icon="@drawable/ic_launcher_foreground">
+    </item>
+    <item
+        android:id="@+id/nav_place_history"
+        android:title="История"
+        android:icon="@drawable/ic_launcher_foreground">
+    </item>
+
+    <item android:title="Support">
+        <menu>
+        <item android:title="Feedback"
+            android:id="@+id/nav_feedback"/>
+
+        <item android:title="Warnings"
+            android:id="@+id/nav_nav_warnings"/>
+        </menu>
+    </item>
+</menu>
