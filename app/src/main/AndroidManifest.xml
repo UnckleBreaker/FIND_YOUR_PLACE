@@ -27,13 +27,17 @@
             </intent-filter>
         </activity>
         <activity android:name=".Real_time_activity"
+            android:parentActivityName=".MainActivity"
             android:label="Preferences">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity">
+            </meta-data>
             <intent-filter>
                 <action android:name="android.intent.action.ALL_APPS"/>
                     <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-
         <meta-data android:name="com.google.ar.core" android:value="required"/>
     </application>
 

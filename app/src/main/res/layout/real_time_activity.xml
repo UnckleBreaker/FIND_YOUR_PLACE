@@ -6,21 +6,35 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".Real_time_activity">
-
-    <fragment
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="330dp"
-        android:id="@+id/arfragment"
-        android:name="com.google.ar.sceneform.ux.ArFragment"></fragment>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <fragment
-        xmlns:tools="http://schemas.android.com/tools"
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:id="@+id/toolbar">
+        </androidx.appcompat.widget.Toolbar>
 
-        android:layout_width="match_parent"
-        android:layout_marginTop="330dp"
-        android:layout_height="330dp"
-        android:id="@+id/fragment_maps"
-        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+        <fragment
+            android:id="@+id/arfragment"
+            android:name="com.google.ar.sceneform.ux.ArFragment"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"></fragment>
+
+        <fragment
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:id="@+id/fragment_maps"
+            android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+
+    </LinearLayout>
 
 
 </RelativeLayout>
