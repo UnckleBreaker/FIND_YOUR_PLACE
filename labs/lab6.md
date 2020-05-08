@@ -32,8 +32,8 @@
 - повысить контрастность текста для улучшения читаемости надписей, доработать дизайн.
 # Сравнение "До/После"
 до:
-![Image alt](https://github.com/UnckleBreaker/FIND_YOUR_PLACE/blob/master/labs/before2.jpg)
-![Image alt](https://github.com/UnckleBreaker/FIND_YOUR_PLACE/blob/master/labs/before.jpg)
+![Image alt](https://github.com/UnckleBreaker/FIND_YOUR_PLACE/blob/master/labs/before2.png)
+![Image alt](https://github.com/UnckleBreaker/FIND_YOUR_PLACE/blob/master/labs/before.png)
 после:
 ![Image alt](https://github.com/UnckleBreaker/FIND_YOUR_PLACE/blob/master/labs/jpg.png)
 ![Image alt](https://github.com/UnckleBreaker/FIND_YOUR_PLACE/blob/master/labs/jpg2.png)
