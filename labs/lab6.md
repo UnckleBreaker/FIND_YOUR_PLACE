@@ -30,4 +30,10 @@
 - Добавить справочную информацию разработчиках приложения.
 - добавить всплывающие подсказки.
 - повысить контрастность текста для улучшения читаемости надписей, доработать дизайн.
-- добавить в приложение фотографии заведений, для упрощения выбора пользователя.
+# Сравнение "До/После"
+до:
+![Image alt](https://github.com/UnckleBreaker/FIND_YOUR_PLACE/blob/master/labs/before2.jpg)
+![Image alt](https://github.com/UnckleBreaker/FIND_YOUR_PLACE/blob/master/labs/before.jpg)
+после:
+![Image alt](https://github.com/UnckleBreaker/FIND_YOUR_PLACE/blob/master/labs/jpg.png)
+![Image alt](https://github.com/UnckleBreaker/FIND_YOUR_PLACE/blob/master/labs/jpg2.png)
