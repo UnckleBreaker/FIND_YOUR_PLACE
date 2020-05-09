@@ -4,12 +4,12 @@
 <item
     android:title="Заведения города"
     android:id="@+id/nav_city_places"
-    android:icon="@drawable/ic_launcher_foreground">
+    android:icon="@drawable/ic_city_foreground">
 </item>
     <item
         android:title="Путь"
         android:id="@+id/nav_real_time"
-        android:icon="@drawable/ic_launcher_foreground">
+        android:icon="@drawable/ic_go_foreground">
     </item>
 
     <item
@@ -19,8 +19,8 @@
     </item>
     <item
         android:id="@+id/nav_place_history"
-        android:title="История"
-        android:icon="@drawable/ic_launcher_foreground">
+        android:title="О разработчиках"
+        android:icon="@drawable/ic_about">
     </item>
 
     <item android:title="Support">

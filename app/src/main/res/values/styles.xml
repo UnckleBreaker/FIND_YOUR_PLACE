@@ -8,4 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <color name="colorAccent">#F436DB</color>
+    <color name="colorPrimaryDark">#FD009678</color>
+    <color name="colorPrimary">#009688</color>
 </resources>
