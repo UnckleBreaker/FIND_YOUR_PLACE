@@ -171,6 +171,7 @@ public class Real_time_activity extends AppCompatActivity implements OnMapReadyC
 
     private void getPolylines(GoogleMap mMap)
     {
+
         try {
             if (mLocationPermissionGranted) {
                 Task<Location> locationResult = mFusedLocationProviderClient.getLastLocation();
